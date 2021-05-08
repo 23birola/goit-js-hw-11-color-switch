@@ -13,7 +13,7 @@ const body = document.querySelector('body');
 
 startBtn.addEventListener('click', () => {
     startBtn.setAttribute("disabled", "disabled");
-    colorSwitcherInterval = setInterval(colorSwitcher, 3000);
+    colorSwitcherInterval = setInterval(colorSwitcher, 1000);
 });
 stoptBtn.addEventListener('click', colorSwitcherStop);
 
